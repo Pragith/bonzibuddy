@@ -51,6 +51,15 @@ def main():
     preflight = json.loads((root / "validation/preflight.json").read_text())
     if not preflight.get("valid") or preflight.get("sha256") != digest:
         errors.append("Pets preflight is failed or describes different bytes")
+    web = manifest["compatibility"]["web"]
+    web_path = root / web["spritesheet"]
+    if hashlib.sha256(web_path.read_bytes()).hexdigest() != web["sha256"]:
+        errors.append("Web sprite checksum differs from pet.json")
+    with Image.open(web_path) as web_image, Image.open(path) as full_image:
+        if web_image.size != (1536, 1872) or web_image.mode != "RGBA":
+            errors.append("Web sprite must be a 1536x1872 RGBA image")
+        if web_image.convert("RGBA").tobytes() != full_image.convert("RGBA").crop((0, 0, 1536, 1872)).tobytes():
+            errors.append("Web sprite differs from the nine canonical animation rows")
     print(json.dumps({"ok": not errors, "populated_cells": populated,
                       "sha256": digest, "errors": errors}, indent=2))
     raise SystemExit(bool(errors))

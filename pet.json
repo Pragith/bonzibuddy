@@ -52,5 +52,29 @@
     "Near-down-left horizontal cue is subtle; direction checks retain a reviewed warning.",
     "Original voice and desktop routines are not included."
   ],
-  "repository_revision": "Reduced second look-row source scale from 1.18 to 1.14 to restore top-edge padding. Same generated poses; installed pet still uses the earlier sheet."
+  "repository_revision": "Second look-row source uses scale 1.14 to preserve top padding.",
+  "version": "1.0.0",
+  "compatibility": {
+    "web": {
+      "spritesheet": "assets/bonzi-buddy-web.png",
+      "format": "ChatGPT Pets v1",
+      "dimensions": [
+        1536,
+        1872
+      ],
+      "frames_per_row": [
+        6,
+        8,
+        8,
+        4,
+        5,
+        8,
+        6,
+        6,
+        6
+      ],
+      "sha256": "e07e75575e36bc84ebab6bdb0bae817762992eaf5fb4952f29c3884ff4f51c84",
+      "notes": "Same first nine animation rows; sixteen directional look frames are exclusive to v2."
+    }
+  }
 }

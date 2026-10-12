@@ -6,6 +6,25 @@ or animation frames.
 
 ![Animation preview](previews/motion-overview.gif)
 
+## Download and install
+
+Get [v1.0.0](https://github.com/Pragith/bonzibuddy/releases/tag/v1.0.0) or the
+[latest release](https://github.com/Pragith/bonzibuddy/releases/latest).
+
+- **ChatGPT desktop:** download `install.html`, open it in a browser and click
+  **Install Bonzi Buddy**. It opens the app's v2 pet installation flow. After
+  installation, choose Bonzi Buddy in **Settings > Pets** and use `/pet` to show it.
+- **ChatGPT web:** download `bonzi-buddy-web-v1.png`, then use **Settings >
+  Personalization > Pet > Select pet > Upload pet**. The v1 sheet includes the nine
+  standard animations; the full v2 sheet adds sixteen directional looks.
+- **Everything together:** download `bonzi-buddy-v1.0.0.zip`. Checksums are in
+  `SHA256SUMS.txt`; verify with `shasum -a 256 -c SHA256SUMS.txt` beside the files.
+
+Pets must be available for your account and workspace. Desktop pets are local
+and do not automatically sync to the web. The install launcher uses the
+[documented desktop deep link](https://learn.chatgpt.com/docs/app/commands);
+web upload and selection follow [OpenAI's Pets guide](https://learn.chatgpt.com/docs/pets).
+
 ## Files
 
 - `assets/bonzi-buddy.png`: final transparent ChatGPT Pets v2 sprite sheet.
@@ -47,17 +66,25 @@ image generation, grounded in the same character reference. The ChatGPT Pet
 creation tools extracted the poses, assembled the sheet, removed background
 spill and rendered previews. Generation is not a deterministic rebuild.
 
-Bonzi Buddy was created and verified in ChatGPT Pets on October 12, 2026.
-Selection as the active pet is separate from creation. The account-specific pet
-ID is kept in ignored `work/installed-pet.json`.
+The release sheet was uploaded to an existing custom ChatGPT pet on October 12,
+2026. Its downloaded pixels matched the repository artwork exactly. The v1 and
+v2 sheets both passed Pets preflight. Selection as active is separate from
+installation. Account-specific records remain in ignored `work/`.
 
-The repository sheet includes a later padding correction for four look-up poses.
-The installed pet still uses the earlier sheet; this repository setup did not
-replace its stored artwork.
+The desktop launcher has been checked against the documented URL contract.
+Its interactive installation flow still needs testing in the desktop app.
 
 For future changes, preserve the approved character proportions, regenerate only
 the affected source strips, rerun the complete final validation, and show motion
 previews before uploading. Do not rotate or warp a sprite to invent look poses.
+
+## Make a release
+
+Update `pet.json` and the versioned download links, verify the artwork, commit
+the files, and tag that commit. `python3 scripts/release.py` builds downloads
+from that exact tagged Git snapshot into ignored `work/releases/`. It refuses
+an uncommitted checkout or a version tag that points elsewhere. Publish those
+files with GitHub Releases; generation sources and account records stay local.
 
 ## License and provenance
 
