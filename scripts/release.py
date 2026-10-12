@@ -27,6 +27,8 @@ def main():
         "bonzi-buddy-v2.png": manifest["spritesheet"],
         "bonzi-buddy-web-v1.png": manifest["compatibility"]["web"]["spritesheet"],
         "bonzi-buddy-preview.mp4": "previews/all-states.mp4",
+        "bonzi-buddy-classic-gestures.gif": "previews/classic-gestures.gif",
+        "bonzi-buddy-classic-gestures.mp4": "previews/classic-gestures.mp4",
         "install.html": "install.html",
         "bonzi-buddy-SKILL.md": "skills/bonzi-buddy/SKILL.md",
     }

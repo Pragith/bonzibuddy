@@ -1,8 +1,8 @@
 {
   "ok": true,
   "atlas": "assets/bonzi-buddy.png",
-  "encoded_bytes": 2789903,
-  "sha256": "779d22e18042ea134f83fb7c3a4841365b508d308fba5648786d4c475dd742bf",
+  "encoded_bytes": 2763150,
+  "sha256": "48892e2c577b1110d0cca399ad377295759b4e74087f5fa5efbf489ec556ada8",
   "jump": {
     "idle_baseline": 201,
     "jump_baselines": [

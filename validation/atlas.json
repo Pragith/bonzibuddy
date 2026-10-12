@@ -1,8 +1,8 @@
 {
   "ok": true,
   "file": "assets/bonzi-buddy.png",
-  "encoded_bytes": 2789903,
-  "sha256": "779d22e18042ea134f83fb7c3a4841365b508d308fba5648786d4c475dd742bf",
+  "encoded_bytes": 2763150,
+  "sha256": "48892e2c577b1110d0cca399ad377295759b4e74087f5fa5efbf489ec556ada8",
   "format": "PNG",
   "mode": "RGBA",
   "columns": 8,
@@ -235,7 +235,7 @@
       "row": 3,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 14560,
+      "nontransparent_pixels": 14797,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -244,7 +244,7 @@
       "row": 3,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 15353,
+      "nontransparent_pixels": 14711,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -253,7 +253,7 @@
       "row": 3,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 15738,
+      "nontransparent_pixels": 16059,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -262,7 +262,7 @@
       "row": 3,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 14652,
+      "nontransparent_pixels": 15481,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -523,7 +523,7 @@
       "row": 7,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 13388,
+      "nontransparent_pixels": 13403,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -532,7 +532,7 @@
       "row": 7,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 13168,
+      "nontransparent_pixels": 13398,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -541,7 +541,7 @@
       "row": 7,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 13334,
+      "nontransparent_pixels": 13361,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -550,7 +550,7 @@
       "row": 7,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 13211,
+      "nontransparent_pixels": 13413,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -559,7 +559,7 @@
       "row": 7,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 13183,
+      "nontransparent_pixels": 13419,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -568,7 +568,7 @@
       "row": 7,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 13192,
+      "nontransparent_pixels": 13407,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -595,8 +595,8 @@
       "row": 8,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 15643,
-      "opaque_chroma_key_pixels": 1,
+      "nontransparent_pixels": 13695,
+      "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
     {
@@ -604,7 +604,7 @@
       "row": 8,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 13345,
+      "nontransparent_pixels": 13638,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -613,7 +613,7 @@
       "row": 8,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 14582,
+      "nontransparent_pixels": 13687,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -622,7 +622,7 @@
       "row": 8,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 15828,
+      "nontransparent_pixels": 13725,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -631,7 +631,7 @@
       "row": 8,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 13854,
+      "nontransparent_pixels": 13819,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -640,7 +640,7 @@
       "row": 8,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 15511,
+      "nontransparent_pixels": 13544,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },

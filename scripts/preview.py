@@ -21,8 +21,8 @@ def main():
     output = root / "previews"
     output.mkdir(exist_ok=True)
     font = ImageFont.load_default(size=16)
-    titles = ["Idle", "Move right", "Move left", "Wave", "Jump",
-              "Disappointed", "Waiting", "Thinking", "Reviewing"]
+    titles = ["Idle", "Move right", "Move left", "Sunglasses wave", "Jump",
+              "Disappointed", "Waiting", "Talking / working", "Reading / review"]
     width, height = manifest["cell_dimensions"]
     rows = []
     for row, count in enumerate(manifest["frames_per_row"]):
@@ -48,6 +48,18 @@ def main():
     save_gif([tile(image, "Looking around") for image in rows[9] + rows[10]],
              output / "look-loop.gif", 220)
 
+    classic = []
+    for tick in range(24):
+        canvas = Image.new("RGB", (width * 3, height + 28), "#f4f2f8")
+        for column, (row, title) in enumerate([(7, "Talking"), (8, "Reading / look-up"), (3, "Sunglasses wave")]):
+            canvas.paste(tile(rows[row][tick % len(rows[row])], title), (column * width, 0))
+        classic.append(canvas)
+    save_gif(classic, output / "classic-gestures.gif", 200)
+    for row, name in [(7, "talking"), (8, "reading"), (3, "sunglasses")]:
+        save_gif([tile(image, titles[row]) for image in rows[row]], output / (name + ".gif"), 200)
+    save_gif([tile(image, "Idle / hop / idle") for image in rows[0] + rows[4] + rows[0]],
+             output / "idle-jump-idle.gif", 180)
+
     sequence, durations = [], []
     for i, title in enumerate(titles):
         sequence.extend(tile(image, title) for image in rows[i])
@@ -55,8 +67,8 @@ def main():
     save_gif(sequence, output / "all-states.gif", durations)
 
     stills = Image.new("RGB", (width * 4, height + 28), "#f4f2f8")
-    for i, (row, frame, title) in enumerate([(0, 2, "Blink"), (3, 2, "Wave"),
-                                            (4, 2, "Airborne"), (7, 1, "Thinking")]):
+    for i, (row, frame, title) in enumerate([(7, 2, "Talking"), (8, 0, "Reading"),
+                                            (8, 3, "Looking up"), (3, 2, "Sunglasses")]):
         stills.paste(tile(rows[row][frame], title), (i * width, 0))
     stills.save(output / "motion-stills.png")
     print("Rendered previews from", manifest["spritesheet"])

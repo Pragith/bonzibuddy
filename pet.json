@@ -1,9 +1,9 @@
 {
   "name": "Bonzi Buddy",
-  "description": "A recreation of the classic purple gorilla companion with waves, blinks, hops, thinking gestures and directional looks.",
+  "description": "The current Bonzi gorilla design with classic talking, paper-reading/look-up and sunglasses-wave gestures.",
   "format": "ChatGPT Pets v2",
   "spritesheet": "assets/bonzi-buddy.png",
-  "sha256": "779d22e18042ea134f83fb7c3a4841365b508d308fba5648786d4c475dd742bf",
+  "sha256": "48892e2c577b1110d0cca399ad377295759b4e74087f5fa5efbf489ec556ada8",
   "created": "2026-10-12",
   "dimensions": [
     1536,
@@ -50,10 +50,11 @@
   "limitations": [
     "Generated recreation, not original animation frames.",
     "Near-down-left horizontal cue is subtle; direction checks retain a reviewed warning.",
-    "Original voice and desktop routines are not included."
+    "Original voice and desktop routines are not included.",
+    "Classic gestures are adapted to the fixed pet animation slots; the GIFs’ vine entrance, full sequences and audio are not included."
   ],
   "repository_revision": "Second look-row source uses scale 1.14 to preserve top padding.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "compatibility": {
     "web": {
       "spritesheet": "assets/bonzi-buddy-web.png",
@@ -73,9 +74,19 @@
         6,
         6
       ],
-      "sha256": "e07e75575e36bc84ebab6bdb0bae817762992eaf5fb4952f29c3884ff4f51c84",
+      "sha256": "fa0fa4fb05a1430c34be9208ceccfb80f358ea4e67c8e8eba78d8cc49ee31a77",
       "notes": "Same first nine animation rows; sixteen directional look frames are exclusive to v2."
     }
   },
-  "personality_skill": "skills/bonzi-buddy/SKILL.md"
+  "personality_skill": "skills/bonzi-buddy/SKILL.md",
+  "classic_gestures": {
+    "waving": "Sunglasses adjustment and greeting wave",
+    "running": "Clasped-hands expressive talking during active work",
+    "review": "Reading a blank paper and looking up"
+  },
+  "gesture_references": [
+    "https://media1.tenor.com/m/KahQqBISUOsAAAAd/bonzibuddy-bonzi.gif",
+    "https://media1.tenor.com/m/jKGgpsJFL8wAAAAd/bonzi-buddy-look-up.gif",
+    "https://media1.tenor.com/m/SYqc-Ajc8sEAAAAC/крутойчел.gif"
+  ]
 }

@@ -6,9 +6,27 @@ or animation frames.
 
 ![Animation preview](previews/motion-overview.gif)
 
+## Classic gestures
+
+Version 1.1.0 keeps the approved appearance and adds three actions inspired by
+the user's original animation references:
+
+| ChatGPT animation state | Bonzi gesture |
+| --- | --- |
+| Active work | Clasped-hands talking with expressive mouth shapes |
+| Review | Reading a blank sheet of paper, then looking up |
+| Greeting wave | Adjusting black sunglasses and waving |
+
+![Classic gesture preview](previews/classic-gestures.gif)
+
+These are recreated gestures adapted to ChatGPT's fixed animation slots, not
+the full original GIF movies. The vine entrance and original audio are not
+included. Idle, movement, hop, failure, waiting and all sixteen look poses are
+preserved pixel-for-pixel from the previous release.
+
 ## Download and install
 
-Get [v1.0.1](https://github.com/Pragith/bonzibuddy/releases/tag/v1.0.1) or the
+Get [v1.1.0](https://github.com/Pragith/bonzibuddy/releases/tag/v1.1.0) or the
 [latest release](https://github.com/Pragith/bonzibuddy/releases/latest).
 
 - **ChatGPT desktop:** download `install.html`, open it in a browser and click
@@ -17,7 +35,7 @@ Get [v1.0.1](https://github.com/Pragith/bonzibuddy/releases/tag/v1.0.1) or the
 - **ChatGPT web:** download `bonzi-buddy-web-v1.png`, then use **Settings >
   Personalization > Pet > Select pet > Upload pet**. The v1 sheet includes the nine
   standard animations; the full v2 sheet adds sixteen directional looks.
-- **Everything together:** download `bonzi-buddy-v1.0.1.zip`. Checksums are in
+- **Everything together:** download `bonzi-buddy-v1.1.0.zip`. Checksums are in
   `SHA256SUMS.txt`; verify with `shasum -a 256 -c SHA256SUMS.txt` beside the files.
 
 Pets must be available for your account and workspace. Desktop pets are local
@@ -45,7 +63,7 @@ directions. Unused cells remain transparent.
 curious, slightly goofy retro-companion voice. It keeps technical answers accurate
 and adapts to serious topics. It is an original interpretation of Bonzi's character.
 
-Download `bonzi-buddy-skill-v1.0.1.zip` from the release. To use it as a local
+Download `bonzi-buddy-skill-v1.1.0.zip` from the release. To use it as a local
 Codex skill, extract the `bonzi-buddy` folder into `~/.codex/skills/`, reload
 skills, and invoke:
 
@@ -93,6 +111,11 @@ The release sheet was uploaded to an existing custom ChatGPT pet on October 12,
 2026. Its downloaded pixels matched the repository artwork exactly. The v1 and
 v2 sheets both passed Pets preflight. Selection as active is separate from
 installation. Account-specific records remain in ignored `work/`.
+
+Gesture references: [talking](https://media1.tenor.com/m/KahQqBISUOsAAAAd/bonzibuddy-bonzi.gif),
+[reading and look-up](https://media1.tenor.com/m/jKGgpsJFL8wAAAAd/bonzi-buddy-look-up.gif),
+and [sunglasses](https://media1.tenor.com/m/SYqc-Ajc8sEAAAAC/крутойчел.gif).
+Reference downloads and rejected revisions remain in ignored `work/`.
 
 The desktop launcher has been checked against the documented URL contract.
 Its interactive installation flow still needs testing in the desktop app.
