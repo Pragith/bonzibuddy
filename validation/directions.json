@@ -1,0 +1,117 @@
+{
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "evidence": "Head pitches back, chin underside exposed and both pupils high in sclera."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "warning",
+      "evidence": "Chin lifted with muzzle/nose to right of crown; pupils high and right."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "warning",
+      "evidence": "Nose turns farther right while chin and gaze remain lifted; similar to preceding pose."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Right-facing muzzle and raised pupils with small upward head pitch."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "evidence": "Nose and pupils project toward right edge; near cheek and ear visible."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Muzzle faces right with lowered chin and pupil placement below prior level gaze."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Brow pitches down, pupils low; nose remains right of crown."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Head bowed strongly, nose and eyes still to right of crown, shoulders anchored."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "evidence": "Frontal head bows with both pupils low and nose directed toward belly."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "warning",
+      "evidence": "Head bows and muzzle/pupils shift subtly to left; horizontal cue subtle."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Bowed head yaws left, with nose and low pupils left of crown."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Muzzle projects left and chin sits slightly below level-left anchor."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "evidence": "Nose projects clearly toward left image edge; eyelids and pupils follow left."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Left-facing muzzle lifts slightly, pupils high with chin raised."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Chin lifts and nose remains left of crown; pupils visibly upper-left."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Near-frontal head tilts back exposing chin; nose and pupils retain slight leftward turn."
+    }
+  ],
+  "continuity_review": "All16 poses remain whole and recognisable, with fixed planted body and no reversed quadrant. Numeric boundary difference warnings reflect head return toward frontal gaze and modest relative width; no clipping or transparent material seam. Toe/leg alpha gaps are natural silhouette spaces."
+}

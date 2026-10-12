@@ -1,0 +1,56 @@
+{
+  "name": "Bonzi Buddy",
+  "description": "A recreation of the classic purple gorilla companion with waves, blinks, hops, thinking gestures and directional looks.",
+  "format": "ChatGPT Pets v2",
+  "spritesheet": "assets/bonzi-buddy.png",
+  "sha256": "779d22e18042ea134f83fb7c3a4841365b508d308fba5648786d4c475dd742bf",
+  "created": "2026-10-12",
+  "dimensions": [
+    1536,
+    2288
+  ],
+  "cell_dimensions": [
+    192,
+    208
+  ],
+  "frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review",
+    "look-000-to-157.5",
+    "look-180-to-337.5"
+  ],
+  "generation": "Built-in OpenAI image generation with a canonical identity reference and separate grounded strips; deterministic extraction, shared registration, composition and edge cleanup.",
+  "reference": "https://www.pngaaa.com/detail/2991702",
+  "validation": {
+    "atlas": "passed",
+    "quality": "passed with reviewed warnings",
+    "blind_cardinals": "passed",
+    "pets_preflight": "valid; 1536x2288 PNG, 73 populated cells"
+  },
+  "limitations": [
+    "Generated recreation, not original animation frames.",
+    "Near-down-left horizontal cue is subtle; direction checks retain a reviewed warning.",
+    "Original voice and desktop routines are not included."
+  ],
+  "repository_revision": "Reduced second look-row source scale from 1.18 to 1.14 to restore top-edge padding. Same generated poses; installed pet still uses the earlier sheet."
+}

@@ -1,0 +1,83 @@
+{
+  "ok": true,
+  "atlas": "assets/bonzi-buddy.png",
+  "encoded_bytes": 2789903,
+  "sha256": "779d22e18042ea134f83fb7c3a4841365b508d308fba5648786d4c475dd742bf",
+  "jump": {
+    "idle_baseline": 201,
+    "jump_baselines": [
+      202,
+      202,
+      185,
+      188,
+      202
+    ],
+    "airborne_lift_pixels": 17,
+    "landing_delta_pixels": 1
+  },
+  "look_registration": {
+    "neutral_center_x": 95.0,
+    "look_centers_x": [
+      95.0,
+      95.0,
+      95.5,
+      95.0,
+      95.0,
+      95.0,
+      95.0,
+      95.0,
+      95.0,
+      95.5,
+      95.0,
+      95.5,
+      95.0,
+      95.5,
+      95.5,
+      95.0
+    ],
+    "look_widths": [
+      114,
+      112,
+      113,
+      112,
+      112,
+      112,
+      112,
+      112,
+      126,
+      125,
+      124,
+      125,
+      124,
+      125,
+      125,
+      126
+    ],
+    "maximum_center_drift_pixels": 0.5,
+    "maximum_width_ratio": 1.125
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 022.5 accepted with a reviewed warning",
+    "look direction 045 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "000 has transparent interior hole rows (y=196, y=197, y=198, y=199)",
+    "022.5 has transparent interior hole rows (y=196, y=197, y=198, y=199)",
+    "045 has transparent interior hole rows (y=196, y=197, y=198, y=199)",
+    "067.5 has transparent interior hole rows (y=196, y=197, y=198, y=199)",
+    "090 has transparent interior hole rows (y=196, y=197, y=198, y=199)",
+    "112.5 has transparent interior hole rows (y=196, y=197, y=198, y=199)",
+    "135 has transparent interior hole rows (y=196, y=197, y=198, y=199)",
+    "157.5 has transparent interior hole rows (y=196, y=197, y=198, y=199)",
+    "180 has transparent interior hole rows (y=196, y=197, y=198, y=199)",
+    "202.5 has transparent interior hole rows (y=196, y=197, y=198, y=199)",
+    "225 has transparent interior hole rows (y=195, y=196, y=197, y=198, +1 more)",
+    "247.5 has transparent interior hole rows (y=195, y=196, y=197, y=198, +1 more)",
+    "270 has transparent interior hole rows (y=196, y=197, y=198, y=199)",
+    "292.5 has transparent interior hole rows (y=196, y=197, y=198, y=199)",
+    "315 has transparent interior hole rows (y=196, y=197, y=198, y=199)",
+    "337.5 has transparent interior hole rows (y=195, y=196, y=197, y=198, +1 more)",
+    "157.5->180 diff is a local outlier (4424 pixels vs neighbor average 1192)",
+    "337.5->000 diff is a local outlier (3094 pixels vs neighbor average 1336)"
+  ]
+}

@@ -1,0 +1,20 @@
+License scope
+-------------
+LICENSE applies to project-authored code and documentation. It does not license
+the BonziBUDDY name, character design, or third-party reference material.
+Raster character artwork and previews in assets/ and previews/ are excluded
+from the MIT grant. No separate open-source artwork license is asserted.
+
+Character provenance
+--------------------
+BonziBUDDY is a character associated with Bonzi Software. This repository is an
+unofficial generated fan recreation and makes no claim to those underlying
+character or trademark rights.
+
+Visual reference: https://www.pngaaa.com/detail/2991702
+The hosting page states "Non-commercial Use" for its reference image. That
+statement is recorded as source provenance, not as proof of permission from the
+character's rights holder. The original downloaded image is not included in the
+Git-tracked files.
+
+License reference: https://opensource.org/license/mit
