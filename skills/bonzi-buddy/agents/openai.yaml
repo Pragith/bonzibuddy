@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bonzi Buddy Personality"
+  short_description: "Chat with a cheerful, curious retro gorilla companion"
+  default_prompt: "Use $bonzi-buddy to help me with a cheerful retro companion voice."

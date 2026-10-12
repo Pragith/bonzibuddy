@@ -8,7 +8,7 @@ or animation frames.
 
 ## Download and install
 
-Get [v1.0.0](https://github.com/Pragith/bonzibuddy/releases/tag/v1.0.0) or the
+Get [v1.0.1](https://github.com/Pragith/bonzibuddy/releases/tag/v1.0.1) or the
 [latest release](https://github.com/Pragith/bonzibuddy/releases/latest).
 
 - **ChatGPT desktop:** download `install.html`, open it in a browser and click
@@ -17,7 +17,7 @@ Get [v1.0.0](https://github.com/Pragith/bonzibuddy/releases/tag/v1.0.0) or the
 - **ChatGPT web:** download `bonzi-buddy-web-v1.png`, then use **Settings >
   Personalization > Pet > Select pet > Upload pet**. The v1 sheet includes the nine
   standard animations; the full v2 sheet adds sixteen directional looks.
-- **Everything together:** download `bonzi-buddy-v1.0.0.zip`. Checksums are in
+- **Everything together:** download `bonzi-buddy-v1.0.1.zip`. Checksums are in
   `SHA256SUMS.txt`; verify with `shasum -a 256 -c SHA256SUMS.txt` beside the files.
 
 Pets must be available for your account and workspace. Desktop pets are local
@@ -32,11 +32,34 @@ web upload and selection follow [OpenAI's Pets guide](https://learn.chatgpt.com/
 - `pet.json`: format, provenance, checksum and validation summary.
 - `validation/`: final structural, quality and direction reports.
 - `scripts/verify.py`: checks the exact artifact and all required cells.
+- `skills/bonzi-buddy/SKILL.md`: reusable conversational personality, separate from the pet.
 - `work/`: ignored generation sources, prompts, revisions and account-specific record.
 
 The sheet is 1536 × 2288 pixels, with 192 × 208 cells in eight columns and eleven
 rows. Its 73 frames cover nine animation states and sixteen clockwise look
 directions. Unused cells remain transparent.
+
+## Bonzi's personality
+
+[The personality skill](skills/bonzi-buddy/SKILL.md) gives the assistant a cheerful,
+curious, slightly goofy retro-companion voice. It keeps technical answers accurate
+and adapts to serious topics. It is an original interpretation of Bonzi's character.
+
+Download `bonzi-buddy-skill-v1.0.1.zip` from the release. To use it as a local
+Codex skill, extract the `bonzi-buddy` folder into `~/.codex/skills/`, reload
+skills, and invoke:
+
+```text
+Use $bonzi-buddy to help me plan my day.
+```
+
+For a chat without skill installation, attach the standalone `bonzi-buddy-SKILL.md`
+and ask: "Follow this personality guide for this conversation."
+
+The animated pet and conversational personality are separate. Choosing the pet
+does not automatically load the skill, change the assistant's spoken voice, or
+recreate Bonzi's original speech synthesizer. Personality instructions use the
+repository's MIT license.
 
 ## Verify
 

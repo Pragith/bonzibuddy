@@ -53,7 +53,7 @@
     "Original voice and desktop routines are not included."
   ],
   "repository_revision": "Second look-row source uses scale 1.14 to preserve top padding.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "web": {
       "spritesheet": "assets/bonzi-buddy-web.png",
@@ -76,5 +76,6 @@
       "sha256": "e07e75575e36bc84ebab6bdb0bae817762992eaf5fb4952f29c3884ff4f51c84",
       "notes": "Same first nine animation rows; sixteen directional look frames are exclusive to v2."
     }
-  }
+  },
+  "personality_skill": "skills/bonzi-buddy/SKILL.md"
 }

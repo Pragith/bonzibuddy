@@ -10,3 +10,4 @@ Keep this repository focused on the Bonzi Buddy ChatGPT Pet.
 - Show motion previews before uploading an updated pet. Do not persist upload sessions or signed URLs.
 - MIT covers code and documentation; do not extend it to character artwork or third-party rights.
 - Keep the README current instead of adding duplicate status documents.
+- Keep conversational personality in `skills/bonzi-buddy/SKILL.md`; pet selection does not load it automatically.
